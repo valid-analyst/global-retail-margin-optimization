@@ -8,7 +8,7 @@ The executive leadership of a global retail corporation noticed fluctuations in 
 
 ## 🛠️ Tech Stack & Methodology
 - **Tool:** Microsoft Excel (Advanced Pivot Tables, Trend Analysis, Dynamic KPI Cards, Interactive Slicers)
-- - **Database & Querying:** SQL (Data Validation, Aggregations, CASE WHEN Logic, Subqueries, Window Functions)
+- **Database & Querying:** SQL (Data Validation, Aggregations, CASE WHEN Logic, Subqueries, Window Functions)
 - **Data Transformation:** Consolidated global sales records, calculated dynamic Net Profit Margins (%), and designed a clean, corporate-ready Executive Dashboard for C-level decision-making.
 
 ## 🔍 Key Data Insights (USA & Small Business Analysis)
