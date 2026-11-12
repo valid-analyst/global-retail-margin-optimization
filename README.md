@@ -8,6 +8,7 @@ The executive leadership of a global retail corporation noticed fluctuations in 
 
 ## 🛠️ Tech Stack & Methodology
 - **Tool:** Microsoft Excel (Advanced Pivot Tables, Trend Analysis, Dynamic KPI Cards, Interactive Slicers)
+- - **Database & Querying:** SQL (Data Validation, Aggregations, CASE WHEN Logic, Subqueries, Window Functions)
 - **Data Transformation:** Consolidated global sales records, calculated dynamic Net Profit Margins (%), and designed a clean, corporate-ready Executive Dashboard for C-level decision-making.
 
 ## 🔍 Key Data Insights (USA & Small Business Analysis)
@@ -18,3 +19,11 @@ The executive leadership of a global retail corporation noticed fluctuations in 
 ## 💡 Strategic Recommendations for the CEO
 1. **Replicate the US Small Business Model:** Use the pricing and discount thresholds applied in the US Small Business segment as a benchmark for lower-margin regions (like Canada/Germany).
 2. **Q3 Operational Readiness:** Since profit heavily accelerates starting September, supply chain and marketing budgets should be aggressively allocated right before Q4 to capture the October peak.
+## 🗄️ SQL Deep-Dive & Financial Validation
+
+To complement the Excel Executive Dashboard, the dataset was queried using SQL (`retail_financial_analysis.sql`) to audit deal profitability and product unit economics.
+
+### Key Technical & Business Highlights:
+* **Margin Tier Segmentation (`CASE WHEN`):** Categorized all 700 transactions into margin tiers, revealing that **Enterprise** segment deals heavily cluster in the *Unprofitable / Break-Even* tier when medium-to-high discounts are applied.
+* **Product Unit Economics:** Evaluated `COGS` against `Net Sales`, confirming **Paseo** as the primary profit driver across territories due to optimal volume-to-cost efficiency.
+* **Regional Top Performers (Subqueries & Window Functions):** Utilized `RANK() OVER(PARTITION BY country)` to isolate the top 3 revenue-generating products per market for targeted budget allocation.
